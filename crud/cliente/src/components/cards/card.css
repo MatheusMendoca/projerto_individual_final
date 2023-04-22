@@ -1,6 +1,6 @@
+
 .card--container {
-    width: 250px;
-  
+    display: block;
     border: 3px solid #000000;
     border-radius: 5px;
     margin: 10px;
@@ -9,14 +9,17 @@
   }
 
   .card--title{
-    font-family: "segoe ui",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "segoe ui",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
   }
 
   .card--category{
+    
     margin-top: 5px;
   }
 
   .card--container:hover{
+
     background-color: aqua;
   }
   
